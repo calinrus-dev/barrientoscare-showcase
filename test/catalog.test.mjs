@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {normalizeCatalogSearch,catalogProductPrices,catalogProductAvailability,filterProducts} from '../samples/catalog.js';
+const p=(extra={})=>({id:'sample',name:'Sérum de día',brand:'Muestra',price:40,sortOrder:0,category:'Rostro',...extra});
+test('Spanish accents and punctuation normalize for search',()=>assert.equal(normalizeCatalogSearch(' SÉRUM / día! '),'serum dia'));
+test('search requires every token, regardless of order',()=>{assert.equal(filterProducts([p()],{query:'dia serum'}).length,1);assert.equal(filterProducts([p()],{query:'serum noche'}).length,0);});
+test('unavailable cheap variant cannot make an available product appear cheap',()=>{const product=p({variants:[{price:1,stock:0},{price:25,stock:3}]});assert.deepEqual(catalogProductPrices(product),[25]);assert.equal(filterProducts([product],{maxPrice:10}).length,0);});
+test('sold-out product keeps fallback prices for its card',()=>assert.deepEqual(catalogProductPrices(p({variants:[{price:12,stock:0}]})),[12]));
+test('stock disabled is distinct from sold out',()=>{assert.equal(catalogProductAvailability(p({stockEnabled:false,stockQuantity:0})).soldOut,false);assert.equal(catalogProductAvailability(p({stockEnabled:true,stockQuantity:0})).soldOut,true);});
+test('zero sale price is preserved',()=>assert.deepEqual(catalogProductPrices(p({salePrice:0})),[0]));
+test('inclusive price boundaries use a real variant price',()=>assert.equal(filterProducts([p({variants:[{price:20},{price:40}]})],{minPrice:21,maxPrice:39}).length,0));
+test('sort is non-mutating and follows the displayed minimum price',()=>{const items=[p({id:'a',price:50}),p({id:'b',price:30})];assert.deepEqual(filterProducts(items,{sort:'price-asc'}).map(x=>x.id),['b','a']);assert.deepEqual(items.map(x=>x.id),['a','b']);});
+test('low-stock state excludes sold-out products',()=>{assert.deepEqual(catalogProductAvailability(p({variants:[{price:20,stock:2}]})),{soldOut:false,low:true});assert.equal(catalogProductAvailability(p({variants:[{price:20,stock:0}]})).low,false);});

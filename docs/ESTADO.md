@@ -25,3 +25,7 @@ El 28 de septiembre de 2026 se comprobó en navegador que el dominio público ca
 Las capacidades nuevas deben acompañarse de evidencia identificable: una revisión, una captura real o una demostración reproducible. Las propuestas y los resultados de revisiones anteriores conservan su contexto.
 
 Este repositorio contiene una historia nueva de documentación pública. La implementación y los datos del producto se conservan en privado.
+
+## Evidencia ejecutable añadida
+
+El escaparate incluye ahora una muestra pública acotada con pruebas y origen declarado. [Reproducir la comprobación](VERIFICATION.md). Su resultado no cambia por sí solo el estado de integración del producto completo descrito arriba.
