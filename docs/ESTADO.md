@@ -2,18 +2,17 @@
 
 [← Inicio](../README.md)
 
-**Estado publicado:** Producto en evolución.  
+**Estado publicado:** Web publicada y en funcionamiento.  
 **Fecha de revisión:** 28 de septiembre de 2026.
 
 ## Qué se ha comprobado
 
-Se revisaron la documentación funcional y las guías del producto. Esta publicación no comprueba una compra real, una pasarela de pago ni el despliegue de servicios externos.
+El 28 de septiembre de 2026 se comprobó en navegador que el dominio público carga la portada y el catálogo, con productos, categorías, controles de búsqueda y acceso a Club. La documentación registra un despliegue publicado. Esta comprobación no realiza compras ni certifica cada integración operativa.
 
 ## Alcance actual
 
-- Las imágenes ilustrativas no representan disponibilidad ni precio comercial.
-- La preparación de un pedido no implica que se haya realizado un cobro.
-- La operación de producción requiere verificación independiente.
+- Los precios, promociones y la disponibilidad pueden cambiar después de las capturas.
+- La revisión pública no realizó una transacción ni verificó el panel privado.
 
 ## Siguientes pasos
 

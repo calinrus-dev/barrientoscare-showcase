@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Una experiencia de catálogo, selección de productos y gestión comercial con identidad visual propia y un recorrido de compra asistida.
+Una web comercial de belleza y cuidado personal publicada en barrientoscare.es. Conecta identidad de marca, catálogo, búsqueda, variantes, cesta y Club con herramientas para mantener el contenido y gestionar la actividad del negocio.
 
 **Tecnologías asociadas al proyecto:** TypeScript · React · Next.js.
 

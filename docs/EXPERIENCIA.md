@@ -10,25 +10,25 @@ Un catálogo útil necesita facilitar tanto la elección del cliente como el tra
 
 ### 1. Explorar el catálogo
 
-Exploración por productos, marcas y categorías.
+Productos, categorías, búsqueda, filtros y vistas de catálogo.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 2. Elegir una variante
 
-Información, variantes e imágenes para tomar una decisión.
+Fichas visuales, variantes y contexto para preparar la selección.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 3. Preparar la cesta
 
-Preparación del pedido y continuidad del recorrido.
+Continuidad del pedido y experiencia de cliente en la web publicada.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 4. Continuar el pedido
 
-Organización del catálogo y revisión de la actividad comercial.
+Herramientas privadas para mantener catálogo, contenido y actividad.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 

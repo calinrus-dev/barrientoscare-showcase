@@ -1,13 +1,13 @@
-![BarrientosCare — Un catálogo pensado para elegir.](assets/hero.svg)
+![BarrientosCare — Una marca. Un catálogo. Un negocio en marcha.](assets/hero.svg)
 
 # BarrientosCare
 
-**Un catálogo pensado para elegir.**
+**Una marca. Un catálogo. Un negocio en marcha.**
 
-Una experiencia de catálogo, selección de productos y gestión comercial con identidad visual propia y un recorrido de compra asistida.
+Una web comercial de belleza y cuidado personal publicada en barrientoscare.es. Conecta identidad de marca, catálogo, búsqueda, variantes, cesta y Club con herramientas para mantener el contenido y gestionar la actividad del negocio.
 
 **Stack:** TypeScript · React · Next.js  
-**Estado:** Producto en evolución
+**Estado:** Web publicada y en funcionamiento
 
 [Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
 
@@ -17,14 +17,24 @@ Un catálogo útil necesita facilitar tanto la elección del cliente como el tra
 
 ## Qué compone la experiencia
 
-- **Catálogo.** Exploración por productos, marcas y categorías.
-- **Ficha de producto.** Información, variantes e imágenes para tomar una decisión.
-- **Cesta y pedido.** Preparación del pedido y continuidad del recorrido.
-- **Panel de gestión.** Organización del catálogo y revisión de la actividad comercial.
+- **Catálogo vivo.** Productos, categorías, búsqueda, filtros y vistas de catálogo.
+- **Elección de producto.** Fichas visuales, variantes y contexto para preparar la selección.
+- **Cesta y Club.** Continuidad del pedido y experiencia de cliente en la web publicada.
+- **Gestión del negocio.** Herramientas privadas para mantener catálogo, contenido y actividad.
 
 ![Mapa conceptual de BarrientosCare: Explorar el catálogo → Elegir una variante → Preparar la cesta → Continuar el pedido.](assets/experiencia.svg)
 
 *Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+
+## Galería real
+
+![Portada real de barrientoscare.es, revisada el 28 de septiembre de 2026.](assets/web-inicio.png)
+
+*Portada real de barrientoscare.es, revisada el 28 de septiembre de 2026.*
+
+![Catálogo público real de BarrientosCare. Los datos comerciales pueden cambiar.](assets/web-catalogo.png)
+
+*Catálogo público real de BarrientosCare. Los datos comerciales pueden cambiar.*
 
 ## Decisiones que definen el proyecto
 

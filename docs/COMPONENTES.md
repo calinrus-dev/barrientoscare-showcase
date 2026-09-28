@@ -6,33 +6,33 @@
 
 Lámina conceptual con contenido ficticio. Las piezas de esta página describen la experiencia y sus responsabilidades visibles.
 
-## 01 / Catálogo
+## 01 / Catálogo vivo
 
-Exploración por productos, marcas y categorías.
+Productos, categorías, búsqueda, filtros y vistas de catálogo.
 
 **En el recorrido:** Explorar el catálogo.
 
 **Responsabilidad relacionada:** Experiencia de catálogo.
 
-## 02 / Ficha de producto
+## 02 / Elección de producto
 
-Información, variantes e imágenes para tomar una decisión.
+Fichas visuales, variantes y contexto para preparar la selección.
 
 **En el recorrido:** Elegir una variante.
 
 **Responsabilidad relacionada:** Selección y pedido.
 
-## 03 / Cesta y pedido
+## 03 / Cesta y Club
 
-Preparación del pedido y continuidad del recorrido.
+Continuidad del pedido y experiencia de cliente en la web publicada.
 
 **En el recorrido:** Preparar la cesta.
 
 **Responsabilidad relacionada:** Gestión de contenido.
 
-## 04 / Panel de gestión
+## 04 / Gestión del negocio
 
-Organización del catálogo y revisión de la actividad comercial.
+Herramientas privadas para mantener catálogo, contenido y actividad.
 
 **En el recorrido:** Continuar el pedido.
 
