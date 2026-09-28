@@ -33,4 +33,4 @@ La decisión tiene límites: son recorridos lineales sobre un catálogo en memor
 [Diseño del catálogo](docs/COMPONENTES.md) · [Arquitectura del sitio](docs/ARQUITECTURA.md) · [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
 
-[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus-dev/)
